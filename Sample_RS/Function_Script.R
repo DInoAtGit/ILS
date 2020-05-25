@@ -5,7 +5,8 @@ setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 load("reviews_bizname2.RData")
 load("dt.RData")
 load("cat_sel.RData")
-#getwd()
+getwd()
+
 
 
 calcRec <- function (c, w) {
